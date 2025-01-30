@@ -1,0 +1,31 @@
+{
+  "name": "unclick",
+  "version": "1.0.0",
+  "description": "Poyecto con Express y TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorDev1986/UnclicK.git"
+  },
+  "author": "Victor Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorDev1986/UnclicK/issues"
+  },
+  "homepage": "https://github.com/VictorDev1986/UnclicK#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.12.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
