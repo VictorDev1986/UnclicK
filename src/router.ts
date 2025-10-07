@@ -1,5 +1,4 @@
 import { Router } from "express";
-
 const router = Router();
 
 // Routing
@@ -8,12 +7,9 @@ router.get('/', (req, res) => {
     res.send('Hola desde el servidor de Express / typescript');
 });
 
-router.get('/nosotros', (req, res) => {
-     res.send('Esta es la página de nosotros');
+router.post('/Auth/register', (req, res) => {
+    console.log(req.body);
 });
 
-router.get('/contacto', (req, res) => {
-    res.send('Esta es la página de contacto');
-});
 
 export default router;

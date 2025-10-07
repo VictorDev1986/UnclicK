@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/VictorDev1986/UnclicK#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.19.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
