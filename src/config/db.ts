@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'; // Importamos la librería mongoose para la conexión con MongoDB
 import colors from 'colors';
 
+
 export const connectDB = async () => { // Función para conectar a MongoDB
     try {
         const {connection} = await mongoose.connect(process.env.MONGO_URI) // Conexión a la base de datos usando la variable de entorno MONGO_URI
