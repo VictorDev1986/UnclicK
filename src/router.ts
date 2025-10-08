@@ -1,15 +1,11 @@
 import { Router } from "express";
+import { createAccount } from "./handlers";
+
 const router = Router();
 
 // Routing
 // Agregar rutas
-router.get('/', (req, res) => {
-    res.send('Hola desde el servidor de Express / typescript');
-});
 
-router.post('/Auth/register', (req, res) => {
-    console.log(req.body);
-});
-
+router.post('/Auth/register', createAccount )
 
 export default router;
